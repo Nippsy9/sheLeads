@@ -1,0 +1,154 @@
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    background-color: white;
+}
+.nav{
+    margin: 0px 200px;
+}
+.btn1{
+
+    background-color: rgb(0, 135, 219);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+
+
+.firstsec{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sec-button {
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+    background-color: #0087DB;
+    border: none;
+    margin-right: 700px;
+}
+
+.sec-button1 {
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+    background-color: #0087DB;
+    border: none;
+    margin-right: 700px;
+}
+
+.sec2 {
+    background-color: #0086db;
+    height: 450px;
+    width: 100%;  
+     
+}
+
+.sec21 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 70px;
+}
+
+.sec-button2 {
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    color: #0086db;
+    background-color: white;
+    border: none;
+    margin-right: 700px;
+}
+
+.sec211 {
+    margin-top: 100px;
+    
+}
+
+.section2 {
+    background-color: #f0f0f0;
+    height: 180px;
+    width: 160vh;
+    margin-left: 150px;
+}
+
+.brother {
+    width: 180px;
+    height: 30px;
+    color: #22B0F5;
+    background-color: #c0e7ff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.brother1 {
+    color: white;
+    width: 180px;
+    height: 40px;
+    background-color: #0086db;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 17px;  
+}
+
+.brother1:hover {
+    background-color: white;
+    color: #0086db;
+    border: 20px;
+    border-color: #0086db;
+}
+
+.brother2 {
+    height: 180px;
+    width: 400px;
+    background-color: #0086db;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.brother3 {
+    height: 180px;
+    width: 400px;
+    background-color: #ececec;
+    border-radius: 20px;
+    display: flex;
+    color: black;
+    gap: 20px;
+    justify-content: center;
+}
+
+.news {
+    background-color: black;
+    color: #0087DB;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.boss {
+    background-color: #f8f8f8;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.news1 {
+    background-color: black;
+    color: #0087DB;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
