@@ -149,6 +149,173 @@
     background-color: black;
     color: #0087DB;
     width: 150px;
-    height: 40px;
+    
     border-radius: 20px;
+}
+
+.afternoon {
+    height: 500px;
+    width: 100%;
+    background-color: #0d8cdd;
+    margin-top: 50px;
+}
+
+.aftrnoon-pic {
+    position: relative;
+}
+
+.afternoon1 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+.afternoon-button {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #c0e7ff;
+    border: none;
+    color: #22B0F5;
+   
+}
+
+.afternoon2 {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0087DB;
+    border-style:groove;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.afternoon-button1 {
+    height: 49px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: #52a8d3;
+    border: none;
+   
+}
+
+.marry {
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+    color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+.marry1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Media query for devices with a max width of 480px */
+@media screen and (max-width: 480px) {
+    .navbar {
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .nav {
+        margin: 0 20px;
+    }
+
+    .btn1 {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .firstsec {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .sec-button, .sec-button1, .sec-button2 {
+        width: 150px;
+        margin-right: 0;
+    }
+
+    .sec2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .sec21 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .brother, .brother1 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .brother2, .brother3 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .news, .news1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .boss {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .afternoon {
+        height: auto;
+        padding: 20px;
+    }
+
+    .afternoon1 {
+        margin-top: -200px;
+        margin-left: 0;
+    }
+
+    .afternoon-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .afternoon2 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .afternoon-button1 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .marry {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .marry1 {
+        font-size: 16px;
+        text-align: center;
+    }
 }
